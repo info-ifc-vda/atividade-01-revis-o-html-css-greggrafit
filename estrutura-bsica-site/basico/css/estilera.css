@@ -1,0 +1,69 @@
+.site-header{
+  background-color: rgb(17, 85, 194);
+  padding: 10px;
+}
+
+body { margin: 0; font-family: "Comic Sans MS", sans-serif; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  color:whitesmoke;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a:hover{
+  color: #f4a261;
+}
+
+.fonte-titulo{
+  font: 30px "Comic Sans MS", sans-serif;
+  Color: rgb(222, 226, 209)
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.site-main{
+    font: 20px "Comic Sans MS", sans-serif;
+  padding: 15px; 
+}
+
+.content{
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.conteudo{
+  background-color: rgb (230 230 230);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.site-footer{
+  background-color: rgb (200, 200, 200);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}

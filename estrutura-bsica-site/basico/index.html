@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <title>Exemplo — Estrutura Básica</title>    
+  </head>
+  <body>
+    <!-- O HEADER É A PARTE SUPERIOR DO SITE, ONDE NORMALMENTE FICA O LOGO E O MENU DE NAVEGAÇÃO -->
+    <header class="site-header">
+        <!-- DIVS SÃO USADAS NA MAIORIA DAS VEZES PARA AGRUPAR ELEMENTOS E APLICAR ESTILOS -->
+        <!-- CLASS É USADA PARA AGRUPAR ELEMENTOS QUE TEM O MESMO ESTILO, PARA QUE POSSAMOS APLICAR CSS-->
+            
+        <div class="container">
+            <h1 class="fonte-titulo">Nome do Site</h1>
+        </div>
+    </header>
+
+    <!-- O MAIN É A PARTE PRINCIPAL DO SITE, ONDE FICA O CONTEÚDO MAIS IMPORTANTE -->
+    <main class="container site-main">
+        <h2>Bem-vindo</h2>
+        <p>Esta é uma página exemplo com a estrutura básica em HTML.</p>
+
+
+        <!-- SECTION É USADA PARA AGRUPAR CONTEÚDOS RELACIONADOS, COMO SE FOSSE UMA SEÇÃO DO SITE -->
+        <!-- ID É USADO PARA IDENTIFICAR UNICAMENTE UM ELEMENTO NA PÁGINA, PARA QUE POSSAMOS ACESSÁ-LO COM CSS OU JAVASCRIPT -->
+        <section id="sobre" class="content">
+            <h3>Sobre</h3>
+            <p>Use esta área para colocar conteúdo principal da página.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <!-- O FOOTER É A PARTE INFERIOR DO SITE, ONDE NORMALMENTE FICA O COPYRIGHT E INFORMAÇÕES DE CONTATO -->
+      <div class="container">        
+          &copy; 2026 Nome do Site. Todos os direitos reservados.        
+      </div>
+    </footer>
+
+    <script>
+      <!-- AQUI ADICIONA-SE CÓDIGO JAVASCRIPT OU REFERÊNCIA A UM ARQUIVO JS-->
+      alert("Bem-vindo ao site!");
+    </script>
+  </body>
+</html>

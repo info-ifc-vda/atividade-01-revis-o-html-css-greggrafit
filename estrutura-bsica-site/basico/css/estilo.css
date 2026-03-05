@@ -1,0 +1,32 @@
+.site-header {
+  background-color: rgb(117, 36, 36);
+  padding: 10px;
+}
+
+.fonte-titulo {
+  text: 12px Arial sans-serif;
+  color: rgb(223, 217, 217);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.site-main {
+  padding: 15px;
+}
+
+.content {
+  background-color: rgb(67, 240, 240);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.site-footer {
+  background-color: rgb(200, 200, 200);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
